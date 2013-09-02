@@ -398,9 +398,7 @@ class Funcao_video extends CI_Controller {
 					
 					sleep(2);
 					// caso contrário ele já é lead então só direciona pro vídeo
-					setcookie('email_lead',$email,time() + (586400 * 15),'/');
-					setcookie('check_video',1,time() + (586400 * 15),'/');
-					setcookie('confirmado',1,time() + (586400 * 15),'/');
+					setcookie('checked',1,time() + (586400 * 15),'/');
 											
 					sleep(2);
 					if(isset($_COOKIE['ref_page'])) { $ref_page = $_COOKIE['ref_page'];}
@@ -478,9 +476,7 @@ class Funcao_video extends CI_Controller {
 				
 				sleep(2);
 				// caso contrário ele já é lead então só direciona pro vídeo
-				setcookie('email_lead',$email,time() + (586400 * 15),'/');
-				setcookie('check_video',1,time() + (586400 * 15),'/');
-				setcookie('confirmado',1,time() + (586400 * 15),'/');
+				setcookie('checked',1,time() + (586400 * 15),'/');
 										
 				sleep(2);
 				
@@ -627,9 +623,7 @@ class Funcao_video extends CI_Controller {
 									
 									
 									// caso contrário ele já é lead então só direciona pro vídeo
-									setcookie('email_lead',$email,time() + (586400 * 15),'/');
-									setcookie('check_video',1,time() + (586400 * 15),'/');
-									setcookie('confirmado',1,time() + (586400 * 15),'/');
+									setcookie('checked',1,time() + (586400 * 15),'/');
 									
 									sleep(2);
 									if(isset($_COOKIE['ref_page'])){
@@ -647,9 +641,7 @@ class Funcao_video extends CI_Controller {
 								}else{
 									
 									// caso contrário ele já é lead então só direciona pro vídeo
-									setcookie('email_lead',$email,time() + (586400 * 15),'/');
-									setcookie('check_video',1,time() + (586400 * 15),'/');
-									setcookie('confirmado',1,time() + (586400 * 15),'/');
+									setcookie('checked',1,time() + (586400 * 15),'/');
 									
 									sleep(2);
 									if(isset($_COOKIE['ref_page'])){
