@@ -66,3 +66,10 @@ ERROR - 2013-09-02 13:42:04 --> Severity: Notice  --> Undefined variable: page C
 ERROR - 2013-09-02 13:42:05 --> 404 Page Not Found --> assets
 ERROR - 2013-09-02 13:44:29 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8ps\application\views\home.php 67
 ERROR - 2013-09-02 13:44:29 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 15:31:30 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 15:31:31 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 15:32:14 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 15:32:15 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 15:32:55 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 15:32:55 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 15:33:04 --> 404 Page Not Found --> ver

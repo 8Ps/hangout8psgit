@@ -101,7 +101,7 @@ class Funcao_video extends CI_Controller {
 								if(isset($_COOKIE['ref_page'])) $ref_page = $_COOKIE['ref_page'];
 									else{
 										
-										$ref_page = 'video1';
+										$ref_page = 'ver';
 									}
 									redirect(base_url().'obrigado?page='.$ref_page);
 						
@@ -168,7 +168,7 @@ class Funcao_video extends CI_Controller {
 								if(isset($_COOKIE['ref_page'])) $ref_page = $_COOKIE['ref_page'];
 								else{
 									
-									$ref_page = 'video1';
+									$ref_page = 'ver';
 								}
 								
 								redirect(base_url().$ref_page);	
@@ -186,7 +186,7 @@ class Funcao_video extends CI_Controller {
 								if(isset($_COOKIE['ref_page'])) $ref_page = $_COOKIE['ref_page'];
 								else{
 									
-									$ref_page = 'video1';
+									$ref_page = 'ver';
 								}
 								
 								setcookie('check_video',1,time() + (586400 * 15),'/');
@@ -240,7 +240,7 @@ class Funcao_video extends CI_Controller {
 							if(isset($_COOKIE['ref_page'])) $ref_page = $_COOKIE['ref_page'];
 								else{
 									
-									$ref_page = 'video1';
+									$ref_page = 'ver';
 								}
 								redirect(base_url().'obrigado?page='.$ref_page);
 					
@@ -404,7 +404,7 @@ class Funcao_video extends CI_Controller {
 					if(isset($_COOKIE['ref_page'])) { $ref_page = $_COOKIE['ref_page'];}
 					else{
 									
-								$ref_page = 'video1';
+								$ref_page = 'ver';
 							
 						
 					}
@@ -486,7 +486,7 @@ class Funcao_video extends CI_Controller {
 					
 				}else{
 					
-					$ref_page = 'video1';
+					$ref_page = 'ver';
 				}
 				redirect(base_url().'obrigado/?page='.$ref_page);
 				
@@ -631,7 +631,7 @@ class Funcao_video extends CI_Controller {
 										
 									}else{
 										
-										$ref_page = 'video1';
+										$ref_page = 'ver';
 										
 									}
 									redirect(base_url().$ref_page);
@@ -649,7 +649,7 @@ class Funcao_video extends CI_Controller {
 										
 									}else{
 										
-										$ref_page = 'video1';
+										$ref_page = 'ver';
 										
 									}
 									redirect(base_url().$ref_page);
@@ -666,7 +666,7 @@ class Funcao_video extends CI_Controller {
 								if(isset($_COOKIE['ref_page'])) $ref_page = $_COOKIE['ref_page'];
 								else{
 									
-									$ref_page = 'video1';
+									$ref_page = 'ver';
 								}
 								redirect(base_url().'obrigado?page='.$ref_page);
 								

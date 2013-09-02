@@ -59,7 +59,7 @@ fb_param.currency = 'USD';
 		
 		<div style="margin-left:40%;margin-top:-280px;">
 				
-					<a href="<?php echo base_url();?>hangoutview">
+					<a href="<?php echo base_url();?>ver">
 						<img src="<?php echo base_url();?>assets/public/images/obrigado/botao-proceguir.png" alt="" />
 						
 					</a>
