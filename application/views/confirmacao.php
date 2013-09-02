@@ -51,7 +51,7 @@ fb_param.currency = 'USD';
 	<div class="wrapper">
 		
 		
-		<div class="conteudo">
+		<div class="conteudo_confirmacao">
 			
 			
 		
@@ -59,11 +59,6 @@ fb_param.currency = 'USD';
 		
 		<div style="margin-left:60%;margin-top:-160px;">
 				
-				<!--	<a href="<?php echo base_url();?>ver">
-						<img src="<?php echo base_url();?>assets/public/images/obrigado/botao-proceguir.png" alt="" />
-						
-					</a>
-				-->
 					
 			</div>
 			
