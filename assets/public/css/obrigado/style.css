@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+Rodrigo Berlinck
+ /*  END OF MEDIA QUERIES */
+
+
+body {margin:0px; padding:0px; background:url(../../images/obrigado/fundo.jpg) #BEBEB4 no-repeat;}
+
+.wrapper {width:100%; height:100%;}
+
+.conteudo {margin:auto;width:960px; height:903px;  background:url(../../images/obrigado/itens.png) no-repeat;}
+.conteudo2 {margin:auto;width:960px; height:903px;  background:url(../../images/obrigado/itens2.png) no-repeat;}
+
+.footer {width:100%; height:52px; position:relative; background:#FE0303; margin-bottom:-20px}
+.logo 	{float:right; margin-top:18px; margin-right:20px; }

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+Rodrigo Berlinck
+ /*  END OF MEDIA QUERIES */
+
+
+body {padding:0px; margin:0px;}
+
+@font-face {
+    font-family: 'gotham_boldregular';
+    src: url('fontes/ufonts.com_gotham_bold-webfont.eot');
+    src: url('fontes/ufonts.com_gotham_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/ufonts.com_gotham_bold-webfont.woff') format('woff'),
+         url('fontes/ufonts.com_gotham_bold-webfont.ttf') format('truetype'),
+         url('fontes/ufonts.com_gotham_bold-webfont.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* body {background:url(../../images/home/background.jpg) no-repeat;} */
+
+.wrapper {width:1580px; height:800px; background:url(../../images/home/fundo.jpg) no-repeat;}
+
+.box_fora {position:relative; width:800px;padding-top:200px;}
+
+.box{margin:auto; width:497px;height:370px; padding:15px 0px 0px 0px; background:url(../../images/home/box-email.png) no-repeat; }
+.box_conteudo {width:400px; margin-left:10px; text-align:justify}
+.titulo { font-family:'gotham_boldregular'; font-weight:bold; font-size:20px; color:#fff;}
+.descricao {font-family:Tahoma; color:#fff;  font-size:14px; padding-top:35px; }
+
+.input { background:url(../../images/home/input.png) no-repeat;border:0px; width:346px; height:57px; font-size:18px; color:#CACAD8; font-family: Tahoma; padding-left:20px; margin-left:40px}
+.botao_ver_video { width:346px; height:92px;margin-left:50px;}
+
+.descricao_footer { font-family:Verdana;  font-size:9px; }
+.footer_fundo{z-index:1;background:url(../../images/home/fundo_rodape.png) no-repeat;width:1489px;height:1000px; position:absolute;bottom:-90%;right:-400px}
+.classname {
+	-moz-box-shadow:inset 0px 1px 2px -18px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 2px -18px #ffffff;
+	box-shadow:inset 0px 1px 2px -18px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f50505), color-stop(1, #c70606) );
+	background:-moz-linear-gradient( center top, #f50505 5%, #c70606 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f50505', endColorstr='#c70606');
+	background-color:#f50505;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #9e0000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:27px;
+	font-weight:bold;
+	padding:13px 27px;
+	text-decoration:none;
+	text-shadow:1px -2px 4px #9e000d;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c70606), color-stop(1, #f50505) );
+	background:-moz-linear-gradient( center top, #c70606 5%, #f50505 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c70606', endColorstr='#f50505');
+	background-color:#c70606;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
