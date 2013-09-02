@@ -78,3 +78,16 @@ ERROR - 2013-09-02 16:18:31 --> 404 Page Not Found --> assets
 ERROR - 2013-09-02 16:56:35 --> 404 Page Not Found --> assets
 ERROR - 2013-09-02 17:06:09 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
 ERROR - 2013-09-02 17:06:09 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 17:13:19 --> 404 Page Not Found --> ver
+ERROR - 2013-09-02 17:41:09 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 17:41:11 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 17:41:35 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 17:41:35 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 17:42:14 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 17:42:15 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 17:42:50 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 17:42:50 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 17:43:01 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 17:43:02 --> 404 Page Not Found --> assets
+ERROR - 2013-09-02 17:44:11 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hangout8psgit\application\views\home.php 67
+ERROR - 2013-09-02 17:44:12 --> 404 Page Not Found --> assets

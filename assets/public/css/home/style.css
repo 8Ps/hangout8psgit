@@ -24,13 +24,13 @@ body {padding:0px; margin:0px;}
 
 .box_fora {position:relative; width:800px;padding-top:200px;}
 
-.box{margin:auto; width:497px;height:370px; padding:15px 0px 0px 0px; background:url(../../images/home/box-email.png) no-repeat; }
+.box{margin:auto; width:497px;height:434px; padding:15px 0px 0px 0px; background:url(../../images/home/box-email.png) no-repeat; }
 .box_conteudo {width:400px; margin-left:10px; text-align:justify}
-.titulo { font-family:'gotham_boldregular'; font-weight:bold; font-size:20px; color:#fff;}
+.titulo { font-family:'gotham_boldregular'; font-weight:bold; font-size:21px; color:#fff;}
 .descricao {font-family:Tahoma; color:#fff;  font-size:14px; padding-top:35px; }
 
 .input { background:url(../../images/home/input.png) no-repeat;border:0px; width:346px; height:57px; font-size:18px; color:#CACAD8; font-family: Tahoma; padding-left:20px; margin-left:40px}
-.botao_ver_video { width:346px; height:92px;margin-left:50px;}
+.botao_ver_video { width:268px; height:70px;margin-left:30px;}
 
 .descricao_footer { font-family:Verdana;  font-size:9px; }
 .footer_fundo{z-index:1;background:url(../../images/home/fundo_rodape.png) no-repeat;width:1489px;height:1000px; position:absolute;bottom:-90%;right:-400px}

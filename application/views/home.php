@@ -129,10 +129,10 @@
 					
 
 					<div class="box_conteudo">
-						<h1 class="titulo">COMO GERAR 1.000 POTENCIAIS CLIENTES COM APENAS R$ 499,00?</h1>
+						<h1 class="titulo">COMO GERAR 1.000 POTENCIAIS CLIENTES COM APENAS R$ 490?</h1>
 						<div class="descricao">
 							
-							Conrado Adolpho, uma das maiores autoridades do Marketing no Brasil, ensinará para você duas técnicas poderosas que irão fazer você gerar 1.000 novos contatos com apenas R$ 499,00. Não perca este Hangout que fará você faturar mais com muito menos!
+							Conrado Adolpho, uma das maiores autoridades do Marketing no Brasil, ensinará para você duas técnicas poderosas que irão fazer você gerar 1.000 novos contatos com apenas R$ 490. Não perca este Hangout que fará você faturar mais com muito menos!
 						</div>
 						
 					</div>
@@ -143,7 +143,7 @@
 					
 					<div style="height:26px"></div>
 					
-					<!--<div style="cursor:pointer;padding-left: 0px"><img class="botao_ver_video" src="<?php echo base_url();?>assets/public/images/home/botao-veja-video.png" onclick="return verificacao();" /></div>-->
+					<div style="cursor:pointer;padding-left: 0px"><img class="botao_ver_video" src="<?php echo base_url();?>assets/public/images/home/botao-veja-video.png" onclick="return verificacao();" /></div>
 					
 					<div style="height:26px"></div>
 					
