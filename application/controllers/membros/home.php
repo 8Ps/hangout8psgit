@@ -40,9 +40,9 @@ class Home extends CI_Controller {
 			$pontos = array();
 			
 			// limpa a tabela/
-			//$this->db->empty_table('rank');
+			$this->db->empty_table('rank');
 			
-			/*
+			
 			foreach($qPosicao->result_array() as $posicao){
 				
 				if(isset($posicao['id_parceiro'])) { 
@@ -66,7 +66,7 @@ class Home extends CI_Controller {
 				}
 			}
 			
-			*/
+			
 			#### rank visitas ########
 			// primeiro vamos inserir as taxas de conversão e depois vamos lsitar por taxa para então rankear
 			/*

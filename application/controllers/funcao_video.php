@@ -63,7 +63,7 @@ class Funcao_video extends CI_Controller {
 			if($qReferenciaLead->num_rows() > 0 AND $qVerificaLead->num_rows() < 0 ){
 				
 				
-				
+			
 						
 					//pega id parceiro
 					$qidParceiro = $this->db->query("SELECT * FROM usuarios WHERE id_afiliado LIKE  '%".$rReferenciaLead->id_hotmart."%'");
@@ -546,7 +546,7 @@ class Funcao_video extends CI_Controller {
 					
 					sleep(2);
 					// envia pro aweber
-					$this->inserir_aweber($email);
+					//$this->inserir_aweber($email);
 					setcookie('email_lead',$this->uri->segment(3),time() + (586400 * 15));
 	
 					

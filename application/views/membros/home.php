@@ -19,12 +19,12 @@
 	    		<a href="<?php echo base_url()?>usuarios/admin/lista_usuario">Listar Parceiros</a>
 	    		
 	    		<br/><Br/>
-	    		
+	    		<!--
 	    	Squeeze<br/>
 	    		
 	    		<a href="<?php echo base_url()?>landing_pages/admin/adicionar">Adicionar Squeeze</a><br/>
 	    		<a href="<?php echo base_url()?>landing_pages/admin/listar">Listar Squeeze</a>
-	    		
+	    		-->
 	    	
 	<br/><br/><br/>
 				Top afiliados Leads<br/>
@@ -42,7 +42,7 @@
 					
 				</table>
 				
-				<br/><br/>
+				<!--<br/><br/>
 				Top Batalha Squeeze <br/>
 				<table border="1">
 					
@@ -76,7 +76,7 @@
 				</table>
 			
 			
-					
+				-->
 					
 					
 				
@@ -86,14 +86,15 @@
 	    		
 	    		
 		    		<div class="menu_afiliado">
-		    			
+		    			<!--
 		    			<?php if($total_landing_pages == 0) { ?>
 		    			<a href="<?php echo base_url()?>landing_pages/admin/adicionar"><img src="<?php echo base_url();?>assets/public/images/membros/novo/botao-add-squeeze.png" style="position:absolute;top:205px;" alt="" /></a>
 		    			<?php } else { ?>
 		    				<a href="<?php echo base_url()?>landing_pages/admin/editar/{id_landing_page}"><img src="<?php echo base_url();?>assets/public/images/membros/novo/botao-transparente.png" style="position:absolute;top:200px;" alt="" /></a>
 		    			<?php } ?>
+		    			-->
 		    			<a href="<?php echo base_url()?>membros/"><img src="<?php echo base_url();?>assets/public/images/membros/novo/botao-transparente.png" style="position:absolute;top:265px;" alt="" /></a>
-		    			<a href="<?php echo base_url()?>membros/home/batalha_leads"><img src="<?php echo base_url();?>assets/public/images/membros/novo/botao-transparente.png" style="position:absolute;top:325px;" alt="" /></a>
+		    			<!--<a href="<?php echo base_url()?>membros/home/batalha_leads"><img src="<?php echo base_url();?>assets/public/images/membros/novo/botao-transparente.png" style="position:absolute;top:325px;" alt="" /></a>-->
 		    			
 		    		</div>
 		    		

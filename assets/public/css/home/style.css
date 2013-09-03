@@ -26,8 +26,8 @@ body {padding:0px; margin:0px;}
 
 .box{margin:auto; width:497px;height:434px; padding:15px 0px 0px 0px; background:url(../../images/home/box-email.png) no-repeat; }
 .box_conteudo {width:400px; margin-left:10px; text-align:justify}
-.titulo { font-family:'gotham_boldregular'; font-weight:bold; font-size:21px; color:#fff;}
-.descricao {font-family:Tahoma; color:#fff;  font-size:14px; padding-top:35px; }
+.titulo { font-family:'gotham_boldregular'; font-weight:bold; font-size:23px; color:#fff;}
+.descricao {font-family:Tahoma; color:#fff;  font-size:15px; padding-top:35px; }
 
 .input { background:url(../../images/home/input.png) no-repeat;border:0px; width:346px; height:57px; font-size:18px; color:#CACAD8; font-family: Tahoma; padding-left:20px; margin-left:40px}
 .botao_ver_video { width:268px; height:70px;margin-left:30px;}

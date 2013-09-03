@@ -5,66 +5,91 @@
 <link href="<?php echo base_url()?>assets/public/css/home/style.css" rel="stylesheet" type="text/css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="<?php echo base_url()?>assets/public/js/jquery.cookie.js"></script>
-<title>8Ps</title>
+<title>Hangout 8Ps</title>
 
-<meta property="og:title" content="Curso Express Gratuito do Método 8Ps - Aumente os lucros e o faturamento da sua empresa."/>
-  <meta property="og:type" content="article"/>
-  <meta property="og:image" content="http://8ps.com/curso8ps/assets/public/images/imagem-face.png"/>
-  <meta property="og:site_name" content="Método 8Ps"/>
-  <meta property="fb:app_id" content="621624621196111">
-  <meta property="og:description" content="Descubra como alavancar os resultados da sua empresa e da sua carreira utilizando a internet como sua principal ferramenta de vendas para aumento de faturamento e de rentabilidade."/>
- <meta property="og:url" content="http://www.8ps.com/curso8ps/" />
-</head>
-
-<body>
+<script type='text/javascript'>//<![CDATA[ 
+		
+			
+					function valida(){
 	
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-42790332-1', '8ps.com');
-  ga('send', 'pageview');
-
-</script>
-
-
-<script>
-	
-	function disableEnterKey(e)
-{
-     var key;
-
-     if(window.event)
-          key = window.event.keyCode;     //IE
-     else
-          key = e.which;     //firefox
-
-     if(key == 13)
-          return false;
-     else
-          return true;
-}
-	
-	
-	function verificacao(){
-	
 		 
+		
 		if(document.meuform.email.value == "" || document.meuform.email.value == undefined){
 		    alert("O Campo E-mail é obrigatório ");
 		    return false;
 	  	}
+	  	
+	  	
+	
+
+	  else
+	  {
+	    return true;
+	  }
+}
+
+
+			</script>
+		
+</head>
+
+<body>
+	
+	<!-- analytics -->
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43649450-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- end analytics -->
+
+
+<!-- remarketing -->
+<!-- Código do Google para tag de remarketing -->
+<!--------------------------------------------------
+As tags de remarketing não podem ser associadas a informações pessoais de identificação nem inseridas em páginas relacionadas a categorias de confidencialidade. Veja mais informações e instruções sobre como configurar a tag em: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 989334342;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/989334342/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- end remarketing -->
+
+
+
+<script>
+	
+	
+	
+	
+	
 	
 		
-	// seta o email pra verificao do lead
-	 $.cookie("email_lead_ver", $('#awf_field-51175789').val(), {expires: new Date(2013, 10, 29, 11, 00, 00), secure: false});
-
-		
+	
 	
 		var url = '<?php echo base_url();?>';
 		<?php if(isset($_GET['ref'])) {?> var id_parceiro = '<?php echo $_GET['ref'];?>';<?php } else {?> var id_parceiro = 0; <?php } ?> 
-		var id_squeeze  = '<?php echo $page[0]['id'];?>';
+		
 		
 		
 		
@@ -79,7 +104,7 @@
 	
 	 $.ajax({
 		   type: "POST",
-		   url: url+'cadastro/ajax/'+$('#awf_field-51175789').val()+'/'+id_parceiro+'/'+id_squeeze,
+		   url: url+'cadastro/ajax/'+$('#awf_field-51175789').val()+'/'+id_parceiro,
 		   data: "",
 		   beforeSend: function(){
 			 // $("#load_produtos_familia").show()
@@ -98,52 +123,37 @@
 	
 		 
 
-}
+
 	
 </script>
-	<?php 	
 	
-		if($this->session->userdata('papel') == 1){ ?>
-			
-			<div style="background:white; width:200px; height:100px;">
-				
-				<?php echo $page[0]['nome']; ?>
-				{afiliado} {nome}{/afiliado}
-				
-			</div>
-			
-			 <?php
-
-		}
-	
-	
-	?>
 	<center>
 	<div class="wrapper">
 		<div class='box_fora'>
 			
 			<div class="box">
 					
-				<form method="post" class="af-form-wrapper" id="meuform" name="meuform" action="<?php echo base_url();?>funcao_video"  >
+				<form method="post" class="af-form-wrapper" id="meuform" name="meuform" action="<?php echo base_url();?>funcao_video" onsubmit="return valida();"  >
 					
 					
 
 					<div class="box_conteudo">
-						<h1 class="titulo">COMO GERAR 1.000 POTENCIAIS CLIENTES COM APENAS R$ 490?</h1>
+						<h1 class="titulo">Hangout: Tática da explosão de leads</h1>
 						<div class="descricao">
 							
-							Conrado Adolpho, uma das maiores autoridades do Marketing no Brasil, ensinará para você duas técnicas poderosas que irão fazer você gerar 1.000 novos contatos com apenas R$ 490. Não perca este Hangout que fará você faturar mais com muito menos!
+							Aprenda gratuitamente com Conrado Adolpho como conseguir dezenas de milhares de fãs e leads (contatos interessados). 
+Deixe seu email abaixo e se inscreva na palestra online que vai fazer suas vendas se multiplicarem muitas vezes.
 						</div>
 						
 					</div>
 					<div style="height:26px"></div>
 					
 					
-					<input type='text' id="awf_field-51175789" type="text" name="email"  onKeyPress="return disableEnterKey(event)" class="input" placeholder="Escreva seu e-mail" />
+					<input type='text' id="awf_field-51175789" type="text" name="email"  class="input" placeholder="Escreva seu e-mail" />
 					
 					<div style="height:26px"></div>
 					
-					<div style="cursor:pointer;padding-left: 0px"><img class="botao_ver_video" src="<?php echo base_url();?>assets/public/images/home/botao-veja-video.png" onclick="return verificacao();" /></div>
+					<div style="cursor:pointer;padding-left: 0px"><input type="image" class="botao_ver_video" src="<?php echo base_url();?>assets/public/images/home/botao-veja-video.png" /></div>
 					
 					<div style="height:26px"></div>
 					

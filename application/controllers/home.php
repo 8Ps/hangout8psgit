@@ -12,7 +12,14 @@ class Home extends CI_Controller {
 	
 	public function index(){
 		
-		
+		if(isset($_COOKIE['checked'])){
+			
+			setcookie('ref_page','confirmacao',time() + (586400 * 15),'/');	
+		}else{
+			
+			setcookie('ref_page','obrigado',time() + (586400 * 15),'/');
+			
+		}
 		
 		
 		//$numers_rand = (explode(",", $numbers));
